@@ -6,6 +6,7 @@ import Jwellery from './Jwellery'
 import Electronics from './Electronics'
 import Menclothes from './Menclothes'
 import Womanclothes from './Womanclothes'
+import Item from './Item'
 
 const Navbar = () => {
   return (
@@ -39,6 +40,7 @@ const Navbar = () => {
           <Route path='/electronics' element={<Electronics></Electronics>}></Route>
           <Route path='/Mclothes' element={<Menclothes></Menclothes>}></Route>
           <Route path='/Wclothes' element={<Womanclothes></Womanclothes>}></Route>
+          <Route path='/item' element={<Item></Item>}></Route>
         </Routes>
       </div>
     </nav>
