@@ -39,7 +39,7 @@ export default function Item() {
       <MDBCardTitle>{apidata.title}</MDBCardTitle>
       <MDBCardTitle>{apidata.price*80} Rs</MDBCardTitle>
       <MDBCardTitle>{apidata.category}</MDBCardTitle>
-      <MDBCardTitle>{apidata.rating.rate}</MDBCardTitle>
+      <MDBCardTitle>{apidata.rating && apidata.rating.rate}</MDBCardTitle>
       <MDBCardTitle>{apidata.description}</MDBCardTitle>
       <MDBCardText>
         Some quick example text to build on the card title and make up the bulk of the card's content.
